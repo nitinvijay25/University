@@ -1,0 +1,29 @@
+r_motor_p = 1
+r_motor_n = 2
+l_motor_p = 3
+l_motor_n = 4
+u_motor_p = 5
+u_motor_n = 6
+d_motor_p = 7
+d_motor_n = 8
+speed = 100
+
+print("Input (Right (R), Left (L), Up (U), Down (D)):")
+control_input = input("") 
+
+if (control_input == 'R'):
+    print(r_motor_n)
+    print(speed)
+    print(r_motor_p)
+elif (control_input == 'L'):
+    print(l_motor_n)
+    print(speed)
+    print(l_motor_p)
+elif (control_input == 'U'):
+    print(u_motor_n)
+    print(speed)
+    print(u_motor_p)
+elif (control_input == 'D'):
+    print(d_motor_n)
+    print(speed)
+    print(d_motor_p)
